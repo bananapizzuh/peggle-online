@@ -5,7 +5,7 @@
 This mod adds online duels through steam networking. This is a very early version that I'm unsure about maintaining, so expect bugs. Currently it only works on Peggle Deluxe 1.01, but it shouldn't theoretically be too hard to get working on nights. Steam is required in order to play multiplayer. 
 
 ## Instructions
-Click the online button that now replaces the demo button on the main menu. The steam lobbies are open to join or are joinable via invite.
+Click the online button that now replaces the demo button on the main menu. The steam lobbies are open to join or are joinable via invite. In order to invite or join someone, you might have to enable or reinitialize the 3D acceleration setting to get steam to hook the overlay into peggle.
 
 ## Current State
 Only the host can change characters and player names, and the peers desync after one level is played.
