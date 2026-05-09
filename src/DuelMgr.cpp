@@ -39,6 +39,8 @@ DuelMgr::DuelMgr() {
         return;
     }
 
+    *reinterpret_cast<bool*>(reinterpret_cast<char*>(mPlayerInfo)+0x4c) = false;
+
     mPlayerTwoTurn = false;
     mLevel = "";
     mOpenedCharacterDialog = false;
