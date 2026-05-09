@@ -109,7 +109,7 @@ char* __fastcall Sexy__CharacterDialog__CharacterDialog(void* this_, char* edx, 
 
 static void (__fastcall* Sexy__CharacterDialog__SaveDetails_)(void* this_, char* edx);
 void __fastcall Sexy__CharacterDialog__SaveDetails(void* this_, char* edx) {
-    if (steamMgr) {
+    if (steamMgr && steamMgr->mDuelMgr) {
         int oldP1CharIndex = *reinterpret_cast<int*>(steamMgr->mDuelMgr->mPlayerInfo + 0x40);
         int oldP2CharIndex = *reinterpret_cast<int*>(steamMgr->mDuelMgr->mPlayerInfo + 0x44);
 
